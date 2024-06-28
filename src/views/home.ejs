@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="css/styles.css" type="text/css">
+    <link rel="stylesheet" href="css/home.css" type="text/css">
+</head>
+
+<body>
+    <div class='container Home-Page'>
+        <div class='home-dashboard'>
+            <div class='notification-message'>
+                <div class='notification'>
+                    <img src='notification.png' alt='notification' />
+                </div>
+                <div class='message'>
+                    <img src='message.png' alt='message' />
+                </div>
+            </div>
+            <div class='income'>
+                <div class='income-background'>
+                    <div class='turn'>
+                        <p>Today's income:</p>
+
+                    </div>
+                    <div class='asset-income'>
+                        <p>
+                            <%- data.TON %>
+                        </p>
+                        <p><%- data.BnZ %></p>
+                        <p><%- data.Coins %></p>
+                    </div>
+                </div>
+
+            </div>
+            <div class='mine-box'>
+                <div class='chart'>
+
+                    <div class='countdown-time'>{Math.floor(progress)}</div>
+                    <button>Claim</button>
+                </div>
+                <div class='menu-mine'>
+                    <div class='btn-missions'>Missions</div>
+                    <div class='btn-boost'>Boost</div>
+                    <div class='btn-invite'>Invite</div>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+    <!-- app -->
+
+</body>
+
+</html>

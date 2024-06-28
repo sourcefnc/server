@@ -1,0 +1,121 @@
+.Home-Page {
+    border: 1px solid #eee;
+    min-width: 21rem;
+    min-height: 96vh;
+}
+
+.Home-Page .home-dashboard {
+    position: relative;
+}
+
+.Home-Page .home-dashboard .notification-message {
+    display: flex;
+    justify-content: end;
+}
+
+.Home-Page .home-dashboard .notification-message .notification,
+.Home-Page .home-dashboard .notification-message .message {
+    cursor: pointer;
+    padding: 0.3rem;
+}
+
+.Home-Page .home-dashboard .notification-message .notification img,
+.Home-Page .home-dashboard .notification-message .message img {
+    width: 1rem;
+}
+
+.Home-Page .home-dashboard .income {
+    position: relative;
+    top: 3rem;
+}
+
+.Home-Page .home-dashboard .income .income-background {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 77%;
+}
+
+.Home-Page .home-dashboard .income .income-background div {
+    height: 0;
+    border-bottom: 2rem solid #aaaaaa;
+    border-left: 2rem solid transparent;
+    border-right: 2rem solid transparent;
+}
+
+.Home-Page .home-dashboard .income .income-background div p {
+    text-align: center;
+}
+
+.Home-Page .home-dashboard .income .income-background .turn {
+    transform: rotate(180deg);
+}
+
+.Home-Page .home-dashboard .income .income-background .turn p {
+    transform: rotate(180deg);
+}
+
+.Home-Page .home-dashboard .income .income-background .asset-income {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.Home-Page .home-dashboard .mine-box .chart {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+    position: relative;
+    top: 3rem;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+
+
+
+
+.Home-Page .home-dashboard .mine-box .chart button {
+    position: absolute;
+    z-index: 10;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+}
+
+.Home-Page .home-dashboard .mine-box .chart .countdown-time {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    color: #eee;
+    transform: translate(-50%, -50%);
+}
+
+.Home-Page .home-dashboard .mine-box .menu-mine {
+    display: flex;
+    margin-top: 5rem;
+    justify-content: center;
+    gap: 0.3rem;
+}
+
+.Home-Page .home-dashboard .mine-box .menu-mine div {
+    width: 4rem;
+    text-align: center;
+    border: 1px solid #aaaaaa;
+    padding: 0.3rem;
+    border-radius: 0.3rem;
+    font-family: monospace;
+    color: #aaaaaa;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.Home-Page .home-dashboard .mine-box .menu-mine div:active {
+    border: 1px solid aqua;
+    color: aqua;
+}
+
+/*# sourceMappingURL=styles.css.map */
